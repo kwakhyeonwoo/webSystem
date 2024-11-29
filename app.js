@@ -48,6 +48,8 @@ app.use(
     })
 );
 
+console.log("!");
+
 app.use('/user', userRouter);
 app.use('/comment', commentRouter);
 app.use('/', indexRouter);
